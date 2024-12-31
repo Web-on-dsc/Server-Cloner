@@ -15,7 +15,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-token = os.getenv("token")
+token = os.getenv("token") # Faire un fichier nommé ".env" dans le même répertoire que le fichier et mettre son token sous ce format : token={tontoken}
 
 
 if token is None:
